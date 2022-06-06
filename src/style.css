@@ -1,0 +1,44 @@
+.todo-form {
+    background-color: rgb(77, 42, 165);
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
+    align-items: stretch;
+    color: bisque;
+    text-decoration: underline;
+ 
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+    background-color: bisque;
+}
+
+.todo-list{
+    display: flex;
+    padding: 15px;
+    background-color: bisque;
+    align-items: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.searchval{
+    /* margin-right: 46px; */
+}
+
+.filter{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(77, 42, 165);
+    
+}
+ 
+.filter button{
+    background-color: bisque;
+    color: rgb(77, 42, 165);
+    
+}
